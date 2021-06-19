@@ -14,7 +14,7 @@ const Home =() =>{
 
     const [content , setContent] = useState([]);
     const [val , setVal] = useState(0);
-    const [gender, setGender] = useState();
+    const [gender, setGender] = useState(3);
 
     const getData =()=>{
         fetch('./data.json'
@@ -62,7 +62,8 @@ const Home =() =>{
     const handleGender =(e)=>{
         setGender(e.target.value);
         if(gender ===0){
-           
+        //    setContent(content.filter((a)=>a.gender.includes(e.target.value)))
+        //    console.log(content);
         }else if(gender === 1){
            
         }else if(gender === 2){
@@ -83,7 +84,7 @@ const Home =() =>{
                 <Tab style={{width: "10%"}} label="Price-High to Low"></Tab>
             </Tabs>
 
-            <FormControl>
+        <FormControl>
         <InputLabel id="demo-simple-select-label">Gender</InputLabel>
         <Select
           labelId="demo-simple-select-label"
@@ -93,7 +94,7 @@ const Home =() =>{
         >
           <MenuItem value={0}>Male</MenuItem>
           <MenuItem value={1}>Female</MenuItem>
-          <MenuItem value={3}>None</MenuItem>
+          <MenuItem value={2}>None</MenuItem>
         </Select>
       </FormControl>
 
