@@ -1,0 +1,67 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "brand":"Levi's",
+            "name": "mesn regulat fit tshirts",
+            "gender":"M",
+            "gencode": 0,
+            "img_src": "https://sslimages.shoppersstop.com/sys-master/images/h2b/hf0/14997720760350/202035193_RED.jpg_2000Wx3000H",
+            "price": 200
+        },
+        {
+            "id": 2,
+            "brand":"Adidas",
+            "name": "track pants with strechable",
+            "gender":"M",
+            "gencode": 0,
+            "img_src": "data:image/jpeg;base64,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",
+            "price": 600
+        },
+        {
+            "id": 3,
+            "brand":"Adidas",
+            "name": "badminton racket",
+            "gender":"F",
+            "gencode": 1,
+            "img_src": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/8809561/2019/6/15/94c1adfa-350f-439d-b6b3-5f9e4c0bc9861560575289546-ADIDAS-Originals-Women-Tshirts-1371560575287908-1.jpg",
+            "price": 300
+        },
+        {
+            "id": 4,
+            "brand":"Allen solly",
+            "name": "Full sleves shirt for womens",
+            "gender":"F",
+            "gencode": 1,
+            "img_src": "https://allensolly.imgix.net/img/app/product/8/80752-196852.jpg",
+            "price": 500
+        },
+        {
+            "id": 5,
+            "brand":"Blackberry",
+            "name": "all new fit blackberry for men",
+            "gender":"M",
+            "gencode": 1,
+            "img_src": "https://images-na.ssl-images-amazon.com/images/I/61LVBMIpNmL._UX569_.jpg",
+            "price": 100
+        },
+        {
+            "id": 6,
+            "brand":"NBA",
+            "name": "all new flexible shoes for men",
+            "gender":"M",
+            "gencode": 0,
+            "img_src": "https://rukminim1.flixcart.com/image/714/857/k0plpjk0/shoe/r/h/h/8919151-40-nba-white-original-imafkfc5jxydrrpb.jpeg?q=50",
+            "price": 1000
+        },
+        {
+            "id": 7,
+            "brand":"DHURVI",
+            "name": "all new kurti for womens",
+            "gender":"F",
+            "gencode": 1,
+            "img_src": "https://images-na.ssl-images-amazon.com/images/I/71zxTcMA4CL._UY550_.jpg",
+            "price": 500
+        }
+    ]
+}
